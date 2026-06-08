@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f5f7fb;
+  color:#111;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:white;
+}
+
+.hero{
+  height:90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#4a90e2,#6c63ff);
+  color:white;
+}
+
+.dark{
+  background:#111;
+  color:white;
+}
